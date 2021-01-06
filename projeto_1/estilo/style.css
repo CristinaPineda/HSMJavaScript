@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #8FBC8F;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    background-color: blue;
+    border: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+h3{
+    color: orangered;
+    text-align: center;
+}
+
+#botao{
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;    
+}
+
+#button{
+    width: 40%;
+    font-size: 180%;
+}
+
+.bot1{
+    color: whitesmoke;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.bot1:hover{
+    color:white;
+    background-color: darkred;
+}
+
+.bot2{
+    color: whitesmoke;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.bot2:hover{
+    color:white;
+    background-color: darkblue;
+}
+
+@media only screen and (max-width: 330px) {
+    div {
+        width: 250px;
+    }
+}
+
+#p1{
+    text-align: center;
+    font-size: 18px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+#container{
+    max-width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:stretch;
+}
+
+.calculo{
+    color: orangered;
+    font-style: italic;
+    margin: auto 0;
+    margin-left: 40px;
+    text-align: right;
+    font-size: 24px;
+    align-items: center;
+}
+        
+input{
+    border: 1px solid blue;
+    text-align: right;
+    margin-top: 20px;
+}
+
+input:hover{
+    background-color: lightgray;
+}
+
+#calcular{
+    color:orangered;
+    font-style: bold;
+    background-color: yellow;
+    border-color: orangered;
+    border-radius: 5px;
+}
+
+#calcular:hover{
+    color:yellow;
+    background-color: orangered;
+    border: 5px;
+    border-color: yellow;
+}
+
+#end{
+    color: orangered;
+    margin-right: 20px;
+    text-align: right;
+    font-size: 14px;
+    font-style: italic;
+}

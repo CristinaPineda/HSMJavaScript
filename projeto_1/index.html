@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cálculo de combustivel</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="script" href="scripts/script.js">
+
+    
+</head>
+<body>
+    <h1>Cálculo de combustível</h1>
+    <h3>Selecione o tipo de combustível que deseja usar para o cálculo:</h3>
+    <div id="botao">
+        <button id="button" class="bot1" onclick="insereTexto()">GASOLINA</button>
+        <button id="button" class="bot2" onclick="insereTexto2()">ÁLCOOL</button>
+    </div>
+
+    <div>
+        <p id="p1">Selecione o tipo de combustível e digite a quantidade de litros,
+
+            ou digite o valor em reais (R$) que deseja usar para a compra de combustível.
+        </p>
+    </div>
+
+    <div id="container"> 
+        
+        <div>
+            <p id="p2">
+                <img src="img/bombaGas.jpg" alt="desenho de uma mão segurando uma calculadora, ao fundo um carro abastecendo num posto de gasolina">
+            </p>
+        </div>
+        <div class="calculo">
+            <p> 
+                <label for="selecaoCombustivel">Combustível selecionado:</label>
+                <input id="selecaoCombustivel" type="text" placeholder="Gasolina/Álcool">
+                    
+            </p>
+            <p>
+                <label for="valorLitro">Valor por litro:</label>
+                <input id="valorLitro" type="number">
+            </p>
+            <p>
+                <label for="litrosPagar">Litros a pagar:</label>
+                <input id="litrosPagar" type="number">
+            </p>
+            <p> 
+                <Valor for="valorPagar">Valor a pagar:</label>
+                <input id="valorPagar" type="number">
+            </p>
+            <button id="calcular" onclick="calculaValorPagar()">Calcular</button>
+        </div>    
+    </div>  
+    
+    <p id="end">by Cristina Pineda</p>
+
+    <script type="text/javascript" src="scripts/script.js">
+        
+    </script>
+</body>
+
+</html>
